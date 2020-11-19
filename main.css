@@ -293,3 +293,32 @@ to{
     opacity:1;
 }
 }
+
+
+.contact-parent{
+display: flex;
+flex-direction: row;
+align-items:center;
+align-content:space-between;
+text-align: center;
+justify-content: center;
+}
+.contact-head h2{
+padding-top:0.9em;
+font-size: 2em;
+}
+.contact-child{
+padding:1em;
+transition-duration: 0.5s;
+}
+.contact-child a :hover{
+opacity: 0.5;
+transition-duration: 0.3s;
+}
+.contact-child a{
+    transition-duration: 0.3s;
+}
+.contact-child img{
+width:50px;
+height: 50px;
+}
