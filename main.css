@@ -1,34 +1,117 @@
 .main-nav nav{
-    display: block;
-    padding:0rem;
+display: block;
+padding:0rem;
   }
-  .main-nav a{
-    color:white;
-    text-decoration: none;
-    transition: color 0.2s linear;
-    -o-transition: color 0.2s linear;
-    -ms-transition: color 0.2s linear;
-    -moz-transition: color 0.2s linear;
-    -webkit-transition: color 0.2s linear;
-  }
-  .main-nav a:hover{
-    color: #D89E00;
-    transition: color 0.2s linear;
-    -o-transition: color 0.2s linear;
-    -ms-transition: color 0.2s linear;
-    -moz-transition: color 0.2s linear;
-    -webkit-transition: color 0.2s linear;
-  }
-  .main-nav ul{
-      margin:0;
-      padding:0;
-      display: block;
-      list-style-type:none;
-  }
-  .main-nav li{
-      display: inline-block;
-      margin: 0;
-      padding: 0.45rem;
-      background-color: #0D1926;
-      color: white;
-  }
+.main-nav a{
+color:white;
+text-decoration: none;
+transition: color 0.2s linear;
+-o-transition: color 0.2s linear;
+-ms-transition: color 0.2s linear;
+-moz-transition: color 0.2s linear;
+-webkit-transition: color 0.2s linear;
+}
+.main-nav a:hover{
+color: #D89E00;
+transition: color 0.2s linear;
+-o-transition: color 0.2s linear;
+-ms-transition: color 0.2s linear;
+-moz-transition: color 0.2s linear;
+-webkit-transition: color 0.2s linear;
+}
+.main-nav ul{
+margin:0;
+padding:0;
+display: block;
+list-style-type:none;
+}
+.main-nav li{
+display: inline-block;
+margin: 0;
+padding: 0.45rem;
+background-color: #0D1926;
+color: white;
+}
+
+#home-nav, #home-nav ul{
+display:inline-flex;
+width:100%;
+list-style-type: none;
+margin:0;
+padding:0;
+background-color: #f5f5f5;
+text-align: center;
+position: fixed;
+}
+#home-nav nav{
+display: inline-flex;
+width: 100%;
+text-align: center;
+}
+#home-nav a{
+color: #4C0755;
+font-size: 1.5em;
+padding:0.8em;
+display: inline-block;
+text-decoration: none;
+transition: color 0.2s linear;
+-o-transition: color 0.2s linear;
+-ms-transition: color 0.2s linear;
+-moz-transition: color 0.2s linear;
+-webkit-transition: color 0.2s linear;
+}
+#home-nav ul{
+position: fixed;
+margin:0;
+padding:0;
+list-style-type:none;
+
+text-align:center;
+position: relative;
+display: inline-block;
+}
+#home-nav li{
+display: inline;
+margin: 0;
+padding: 0.45rem;
+background-color: #f5f5f5;
+color: white;
+}
+.center{
+font-family: "Lulo";
+width: 100%;
+text-align: center;
+background-color: #F5F5F5;
+color: #4C0755;
+padding: 0.65rem;
+margin-bottom: 0.5em;
+box-shadow: 2px 2px 8px grey;
+
+}
+#home-nav a:hover{
+color: #D89E00;
+transition-duration: 0.3s;
+}
+.center a{
+color: black;
+}
+.center a:hover{
+color: #D89E00;
+}
+
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4}
+to {opacity: 1}
+}
