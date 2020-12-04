@@ -346,7 +346,6 @@ height: 100%;
 .process_img{
 margin-top: 2em;
 margin-bottom: 2em;
-/*padding: 0.5em;*/
 text-align: center;
 max-width: 100%;
 background-color: white;
@@ -366,16 +365,32 @@ display: flex;
 flex-wrap: wrap;
 flex-direction: row;
 justify-content: space-around;
-/* margin-left: 5em;
-margin-right: 5em;
-margin-bottom: 4em;*/
-
-
 }
 
+/* for front page responsiveness */
+@media (max-width: 800px){
+    .intro-child-bg{
+        height:300px;
+        width:80%;
+        padding: 0;
+      }
+      .intro-parent{
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        padding-top: 1.5em;
+      }
+      .intro-child{
+        width:80%;
+      }
+      .intro-child p{
+        font-size:3.5em;
+      }
+}
+
+/*for images in projects page*/
 @media (min-width: 900px) {
 body{
-
 }
 
 .process_img{
